@@ -74,15 +74,4 @@ git push origin <tagName>
 
 ---
 
-### Example Workflow
-
-1. You work on a feature branch and make several commits.
-2. Before merging into the main branch, you use `rebase` to ensure your feature is applied on top of the latest main branch.
-3. If you want to clean up your commit history, you can use `squash` to merge multiple commits into one.
-4. If needed, `cherry-pick` allows you to apply specific commits to your branch.
-5. Finally, you create a tag to mark your release and push it to the repository.
-
----
-
-By using these advanced Git commands, you can maintain a clean and efficient repository history, making it easier to manage your project's progress.
 
